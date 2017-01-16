@@ -4,7 +4,8 @@
   "description": "Angular states with ui-router",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/OMGDuke/angular-states/issues"
   },
-  "homepage": "https://github.com/OMGDuke/angular-states#readme"
+  "homepage": "https://github.com/OMGDuke/angular-states#readme",
+  "dependencies": {
+    "http-server": "^0.9.0"
+  }
 }
